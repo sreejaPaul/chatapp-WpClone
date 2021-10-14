@@ -22,7 +22,7 @@ function Login() {
             <div className="login_container">
                 <img src="https://icon-library.com/images/text-message-app-icon/text-message-app-icon-25.jpg" alt="" />
                 <div className="login_text">
-                    <h1>Sign in to Chatapp</h1>
+                    <h1>Sign in to Chat App</h1>
                 </div>
                 <Button type="submit" onClick={signIn}>Sign in With Google</Button>
             </div>
