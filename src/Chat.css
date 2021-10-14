@@ -1,0 +1,101 @@
+.chat{
+    flex: 0.75;    
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-room-name{
+    margin: 0px;
+}
+
+.chat-room-last-seen{
+    margin: 0;
+}
+
+.chatHeader{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.chatHeaderInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chatHeaderInfo > h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chatHeaderInfo > p {
+    color:gray;
+}
+
+.chatHeaderRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.chatBody{
+    flex: 1;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow:scroll;
+}
+
+.chatMessage{
+    position: relative;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.chatName{
+    position: absolute;
+    top:-15px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chatTimestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chatReceiver{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chatFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border: 1px solid lightgray;
+}
+
+.chatFooter > form{
+    flex: 1;
+    display: flex;
+}
+
+.chatFooter > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    margin: 0 10px 0px 10px;
+}
+
+.chatFooter > form > button{
+    display: none;
+}
