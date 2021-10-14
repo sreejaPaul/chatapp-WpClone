@@ -4,11 +4,10 @@
 
 Build with React JS, Firebase and Firestore. This web app has these following features:
 1. Sign in with Google authentication using firebase.
-2. After signing in the account user can - 
-* Create a new chatroom.
-* Chat in a paricular room.
-3. Each chatroom shows last seen time(when last message was delivered).
-4. In sidebar view of the chatroom, last message of that chatroom is visible.
+2. After signing in the account user can create a new chatroom.
+3. After clicking an existing chatroom from sidebar view user can chat in that room.
+4. Each chatroom shows last seen time(when last message was delivered).
+5. In sidebar view of the chatroom, last message of that chatroom is visible.
 
 All chatroom informtions (message, last seen time, last message appeared) are stored and fetched from Firestore database.
 
