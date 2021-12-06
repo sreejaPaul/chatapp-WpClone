@@ -24,8 +24,11 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarHeader">
-                <Avatar src={user?.photoURL}/>
-                <div className="sidebarHeaderRight">
+                <div style={{display:"flex"}}>
+                    <div><Avatar src={user?.photoURL}/></div>
+                    <div className="userName">{user?.displayName}</div>
+                </div>
+                {/* <div className="sidebarHeaderRight">
                     <IconButton>
                         <DonutLargeIcon />
                     </IconButton>
@@ -35,14 +38,14 @@ function Sidebar() {
                     <IconButton>
                         <MoreVertIcon />
                     </IconButton>
-                </div>
+                </div> */}
             </div>
-            <div className="sidebarSearch">
+            {/* <div className="sidebarSearch">
                 <div className="sidebarSearchContainer">
                     <SearchOutlined/>
                     <input placeholder="serach or start a new chat" type="text"/>
                 </div>
-            </div>
+            </div> */}
             <div className="sidebarChats">
                 <Sidebarchat addNewChat/>
                 {

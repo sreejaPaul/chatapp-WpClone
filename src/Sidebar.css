@@ -1,5 +1,6 @@
 .sidebar{
     flex: 0.25;
+    overflow-y: scroll;
 }
 
 .sidebarSearch{
@@ -52,4 +53,9 @@
 .sidebarChats{
     flex:1;
     background-color:white;
+}
+
+.userName{
+    padding: 10px;
+    font-weight: bold;
 }

@@ -99,3 +99,38 @@
 .chatFooter > form > button{
     display: none;
 }
+
+.shareDialog{
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+}
+
+.shareIcons{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: violet;
+}
+.iconNames{
+    padding: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.post_image{
+    max-height: 250px;
+    max-width: 300px;
+}
+.linkIp{
+    width: 95%;
+    height: 25px;
+}
+.imageupload{
+    width: 98%;
+    margin: 10px;
+}
+
+.imageupload__progress{
+    width: 95%;
+}
