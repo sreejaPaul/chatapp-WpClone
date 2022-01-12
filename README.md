@@ -1,6 +1,7 @@
 # Chat App - Whatsapp Clone
 
-![output](https://user-images.githubusercontent.com/88406499/137404103-eb151c0a-21b3-487f-a15c-ffac5f8ddc88.png)
+![ChatApp](https://user-images.githubusercontent.com/88406499/149124291-ca021560-4ec5-4e81-b9de-87294878fe70.png)
+
 
 Build with React JS, Firebase and Firestore. This web app has these following features:
 1. Sign in with Google authentication using firebase.
